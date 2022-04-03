@@ -25,3 +25,9 @@
  
   ## Contributing
   - Rebekkah Huss [Github Link](https://github.com/bekkahhuss)
+
+  ## Screenshots 
+![Note Taker Screenshot](/assets/images/note-taker-home.png)
+![Note Taker Screenshot](/assets/images/note-taker-notes.png)
+
+
