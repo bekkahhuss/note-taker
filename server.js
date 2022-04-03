@@ -58,6 +58,14 @@ app.get('/api/notes/:id', (req, res) => {
         res.send(404);
     }
 });
+app.delete('/api/notes/:id', (req, res) => {
+    const result = findById(req.params.id, notes);
+    if (result === -1) 
+    return res.status(404).json({});
+
+    notes.splice(result,1);
+    res.json(notes);
+});
 app.post('/api/notes', (req, res) => {
     req.body.id = notes.length.toString();
     if (!validateNote(req.body)) {
