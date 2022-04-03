@@ -10,7 +10,6 @@
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [Contributing](#contributing)
-  - [Screenshots](#screenshots)
 
   ## Installation 
   - https://github.com/bekkahhuss/note-taker
